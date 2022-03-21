@@ -1,0 +1,7 @@
+1.Select Max(salary commission_pct) from employees
+2.Select first_name from employees where first_name LIKE 'K%' order by first_name
+3.Select * from employees order by salary commission_pct desc;
+4.Select  first_name, last_name from employees where salary commission_pct>0;
+5.Select first_name, last_name from employees where salary commission_pct BETWEEN 7000 And 12000;
+7.select first_name,last_name from employees
+10.Select * from employees where employee_dept= 'shipping' and 'accounting';
