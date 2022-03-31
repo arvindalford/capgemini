@@ -1,0 +1,13 @@
+Multiple of 3 using for loop:
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		int N=3;
+		for ( N = 3;  N <= 36;  N++ ) {
+            if ( N % 3 == 0 )
+                System.out.println( N );
+        }
+	}
+}

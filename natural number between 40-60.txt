@@ -1,0 +1,15 @@
+Even number between 40-60:
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		int n = 60;
+		
+		for (int i = 40; i <= n; i++) {
+		   if (i % 2 == 0) {
+			System.out.print(i + " ");
+		   }
+		}
+	}
+}
